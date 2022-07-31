@@ -1,0 +1,180 @@
++ bsub -b -I -q q_cpc -n 6 -cgsp 64 -host_stack 1024 -share_size 15000 -ldm_share_mode 5 -ldm_share_size 128 -cache_size 32 ./matrix_solve
+Job <3895576> has been submitted to queue <q_cpc>
+waiting for dispatch ...
+dispatching ...
+[2022- 7-31] [17:34:40] [INFO] Number of Process    :  6
+
+[2022- 7-31] [17:34:40] [INFO] <<================ Matrix index  :  0 ================>>
+[2022- 7-31] [17:34:40] [INFO] Mesh num             :  60000
+[2022- 7-31] [17:34:40] [INFO] Mesh >> decompose mesh!
+[2022- 7-31] [17:34:40] [INFO] Decompse num         :  6
+[2022- 7-31] [17:34:40] [INFO] Row num              :  10000
+[2022- 7-31] [17:34:40] [INFO] Uppper non-zero num  :  10000
+[2022- 7-31] [17:34:40] [INFO] Init >> init vector!
+[2022- 7-31] [17:34:40] [INFO] Matrix >> matrix tranform!
+[2022- 7-31] [17:34:40] [INFO] Iteration >> Main Iterations start!
+[2022- 7-31] [17:34:40] [INFO] Iteration >> [0/200]
+[2022- 7-31] [17:34:40] [INFO] Iteration >> [99/200] done!
+[2022- 7-31] [17:34:40] [INFO] Iteration >> [100/200]
+[2022- 7-31] [17:34:40] [INFO] Iteration >> [199/200] done!
+[2022- 7-31] [17:34:40] [INFO] Write result!
+[2022- 7-31] [17:34:40] [INFO] Check >> check result!
+[2022- 7-31] [17:34:40] [INFO] Check >> check result correct!
+[2022- 7-31] [17:34:40] [INFO] Time: spmv time cost: 0.0173s
+
+[2022- 7-31] [17:34:40] [INFO] <<================ Matrix index  :  1 ================>>
+[2022- 7-31] [17:34:40] [INFO] Mesh num             :  60000
+[2022- 7-31] [17:34:40] [INFO] Mesh >> decompose mesh!
+[2022- 7-31] [17:34:40] [INFO] Decompse num         :  6
+[2022- 7-31] [17:34:41] [INFO] Row num              :  10000
+[2022- 7-31] [17:34:41] [INFO] Uppper non-zero num  :  30000
+[2022- 7-31] [17:34:41] [INFO] Init >> init vector!
+[2022- 7-31] [17:34:41] [INFO] Matrix >> matrix tranform!
+[2022- 7-31] [17:34:41] [INFO] Iteration >> Main Iterations start!
+[2022- 7-31] [17:34:41] [INFO] Iteration >> [0/200]
+[2022- 7-31] [17:34:41] [INFO] Iteration >> [99/200] done!
+[2022- 7-31] [17:34:41] [INFO] Iteration >> [100/200]
+[2022- 7-31] [17:34:41] [INFO] Iteration >> [199/200] done!
+[2022- 7-31] [17:34:41] [INFO] Write result!
+[2022- 7-31] [17:34:41] [INFO] Check >> check result!
+[2022- 7-31] [17:34:41] [INFO] Check >> check result correct!
+[2022- 7-31] [17:34:41] [INFO] Time: spmv time cost: 0.0288s
+
+[2022- 7-31] [17:34:41] [INFO] <<================ Matrix index  :  2 ================>>
+[2022- 7-31] [17:34:41] [INFO] Mesh num             :  6000
+[2022- 7-31] [17:34:41] [INFO] Mesh >> decompose mesh!
+[2022- 7-31] [17:34:41] [INFO] Decompse num         :  0
+[2022- 7-31] [17:34:42] [INFO] Row num              :  10000
+[2022- 7-31] [17:34:42] [INFO] Uppper non-zero num  :  60000
+[2022- 7-31] [17:34:42] [INFO] Init >> init vector!
+[2022- 7-31] [17:34:42] [INFO] Matrix >> matrix tranform!
+[2022- 7-31] [17:34:42] [INFO] Iteration >> Main Iterations start!
+[2022- 7-31] [17:34:42] [INFO] Iteration >> [0/200]
+[2022- 7-31] [17:34:42] [INFO] Iteration >> [99/200] done!
+[2022- 7-31] [17:34:42] [INFO] Iteration >> [100/200]
+[2022- 7-31] [17:34:42] [INFO] Iteration >> [199/200] done!
+[2022- 7-31] [17:34:42] [INFO] Write result!
+[2022- 7-31] [17:34:42] [INFO] Check >> check result!
+[2022- 7-31] [17:34:42] [INFO] Check >> check result correct!
+[2022- 7-31] [17:34:42] [INFO] Time: spmv time cost: 0.0468s
+
+[2022- 7-31] [17:34:42] [INFO] <<================ Matrix index  :  3 ================>>
+[2022- 7-31] [17:34:42] [INFO] Mesh num             :  300000
+[2022- 7-31] [17:34:42] [INFO] Mesh >> decompose mesh!
+[2022- 7-31] [17:34:42] [INFO] Decompse num         :  6
+[2022- 7-31] [17:34:43] [INFO] Row num              :  50000
+[2022- 7-31] [17:34:43] [INFO] Uppper non-zero num  :  50000
+[2022- 7-31] [17:34:43] [INFO] Init >> init vector!
+[2022- 7-31] [17:34:43] [INFO] Matrix >> matrix tranform!
+[2022- 7-31] [17:34:44] [INFO] Iteration >> Main Iterations start!
+[2022- 7-31] [17:34:44] [INFO] Iteration >> [0/200]
+[2022- 7-31] [17:34:44] [INFO] Iteration >> [99/200] done!
+[2022- 7-31] [17:34:44] [INFO] Iteration >> [100/200]
+[2022- 7-31] [17:34:45] [INFO] Iteration >> [199/200] done!
+[2022- 7-31] [17:34:45] [INFO] Write result!
+[2022- 7-31] [17:34:45] [INFO] Check >> check result!
+[2022- 7-31] [17:34:45] [INFO] Check >> check result correct!
+[2022- 7-31] [17:34:45] [INFO] Time: spmv time cost: 0.0419s
+
+[2022- 7-31] [17:34:45] [INFO] <<================ Matrix index  :  4 ================>>
+[2022- 7-31] [17:34:45] [INFO] Mesh num             :  300000
+[2022- 7-31] [17:34:45] [INFO] Mesh >> decompose mesh!
+[2022- 7-31] [17:34:45] [INFO] Decompse num         :  6
+[2022- 7-31] [17:34:47] [INFO] Row num              :  50000
+[2022- 7-31] [17:34:47] [INFO] Uppper non-zero num  :  150000
+[2022- 7-31] [17:34:47] [INFO] Init >> init vector!
+[2022- 7-31] [17:34:47] [INFO] Matrix >> matrix tranform!
+[2022- 7-31] [17:34:48] [INFO] Iteration >> Main Iterations start!
+[2022- 7-31] [17:34:48] [INFO] Iteration >> [0/200]
+[2022- 7-31] [17:34:49] [INFO] Iteration >> [99/200] done!
+[2022- 7-31] [17:34:49] [INFO] Iteration >> [100/200]
+[2022- 7-31] [17:34:49] [INFO] Iteration >> [199/200] done!
+[2022- 7-31] [17:34:49] [INFO] Write result!
+[2022- 7-31] [17:34:49] [INFO] Check >> check result!
+[2022- 7-31] [17:34:49] [INFO] Check >> check result correct!
+[2022- 7-31] [17:34:49] [INFO] Time: spmv time cost: 0.0787s
+
+[2022- 7-31] [17:34:49] [INFO] <<================ Matrix index  :  5 ================>>
+[2022- 7-31] [17:34:49] [INFO] Mesh num             :  300000
+[2022- 7-31] [17:34:49] [INFO] Mesh >> decompose mesh!
+[2022- 7-31] [17:34:49] [INFO] Decompse num         :  6
+[2022- 7-31] [17:34:53] [INFO] Row num              :  50000
+[2022- 7-31] [17:34:53] [INFO] Uppper non-zero num  :  300000
+[2022- 7-31] [17:34:53] [INFO] Init >> init vector!
+[2022- 7-31] [17:34:53] [INFO] Matrix >> matrix tranform!
+[2022- 7-31] [17:34:55] [INFO] Iteration >> Main Iterations start!
+[2022- 7-31] [17:34:55] [INFO] Iteration >> [0/200]
+[2022- 7-31] [17:34:56] [INFO] Iteration >> [99/200] done!
+[2022- 7-31] [17:34:56] [INFO] Iteration >> [100/200]
+[2022- 7-31] [17:34:56] [INFO] Iteration >> [199/200] done!
+[2022- 7-31] [17:34:56] [INFO] Write result!
+[2022- 7-31] [17:34:56] [INFO] Check >> check result!
+[2022- 7-31] [17:34:56] [INFO] Check >> check result correct!
+[2022- 7-31] [17:34:56] [INFO] Time: spmv time cost: 0.1370s
+
+[2022- 7-31] [17:34:56] [INFO] <<================ Matrix index  :  6 ================>>
+[2022- 7-31] [17:34:56] [INFO] Mesh num             :  1200000
+[2022- 7-31] [17:34:56] [INFO] Mesh >> decompose mesh!
+[2022- 7-31] [17:34:56] [INFO] Decompse num         :  6
+[2022- 7-31] [17:35: 3] [INFO] Row num              :  200000
+[2022- 7-31] [17:35: 3] [INFO] Uppper non-zero num  :  200000
+[2022- 7-31] [17:35: 3] [INFO] Init >> init vector!
+[2022- 7-31] [17:35: 3] [INFO] Matrix >> matrix tranform!
+[2022- 7-31] [17:35: 6] [INFO] Iteration >> Main Iterations start!
+[2022- 7-31] [17:35: 6] [INFO] Iteration >> [0/200]
+[2022- 7-31] [17:35: 9] [INFO] Iteration >> [99/200] done!
+[2022- 7-31] [17:35: 9] [INFO] Iteration >> [100/200]
+[2022- 7-31] [17:35:11] [INFO] Iteration >> [199/200] done!
+[2022- 7-31] [17:35:11] [INFO] Write result!
+[2022- 7-31] [17:35:11] [INFO] Check >> check result!
+[2022- 7-31] [17:35:11] [INFO] Check >> check result correct!
+[2022- 7-31] [17:35:11] [INFO] Time: spmv time cost: 0.1340s
+
+[2022- 7-31] [17:35:11] [INFO] <<================ Matrix index  :  7 ================>>
+[2022- 7-31] [17:35:11] [INFO] Mesh num             :  1200000
+[2022- 7-31] [17:35:11] [INFO] Mesh >> decompose mesh!
+[2022- 7-31] [17:35:11] [INFO] Decompse num         :  6
+[2022- 7-31] [17:35:23] [INFO] Row num              :  200000
+[2022- 7-31] [17:35:23] [INFO] Uppper non-zero num  :  600000
+[2022- 7-31] [17:35:23] [INFO] Init >> init vector!
+[2022- 7-31] [17:35:23] [INFO] Matrix >> matrix tranform!
+[2022- 7-31] [17:35:29] [INFO] Iteration >> Main Iterations start!
+[2022- 7-31] [17:35:29] [INFO] Iteration >> [0/200]
+[2022- 7-31] [17:35:32] [INFO] Iteration >> [99/200] done!
+[2022- 7-31] [17:35:32] [INFO] Iteration >> [100/200]
+[2022- 7-31] [17:35:34] [INFO] Iteration >> [199/200] done!
+[2022- 7-31] [17:35:34] [INFO] Write result!
+[2022- 7-31] [17:35:34] [INFO] Check >> check result!
+[2022- 7-31] [17:35:34] [INFO] Check >> check result correct!
+[2022- 7-31] [17:35:34] [INFO] Time: spmv time cost: 0.2699s
+
+[2022- 7-31] [17:35:34] [INFO] <<================ Matrix index  :  8 ================>>
+[2022- 7-31] [17:35:34] [INFO] Mesh num             :  1200000
+[2022- 7-31] [17:35:34] [INFO] Mesh >> decompose mesh!
+[2022- 7-31] [17:35:34] [INFO] Decompse num         :  6
+[2022- 7-31] [17:36:25] [INFO] Row num              :  200000
+[2022- 7-31] [17:36:25] [INFO] Uppper non-zero num  :  1200000
+[2022- 7-31] [17:36:25] [INFO] Init >> init vector!
+[2022- 7-31] [17:36:25] [INFO] Matrix >> matrix tranform!
+[2022- 7-31] [17:36:36] [INFO] Iteration >> Main Iterations start!
+[2022- 7-31] [17:36:36] [INFO] Iteration >> [0/200]
+[2022- 7-31] [17:36:38] [INFO] Iteration >> [99/200] done!
+[2022- 7-31] [17:36:38] [INFO] Iteration >> [100/200]
+[2022- 7-31] [17:36:41] [INFO] Iteration >> [199/200] done!
+[2022- 7-31] [17:36:41] [INFO] Write result!
+[2022- 7-31] [17:36:41] [INFO] Check >> check result!
+[2022- 7-31] [17:36:41] [INFO] Check >> check result correct!
+[2022- 7-31] [17:36:41] [INFO] Time: spmv time cost: 0.5145s
+
+[2022- 7-31] [17:36:41] [INFO] Time: matrix 0 spmv time cost: 0.0173s
+[2022- 7-31] [17:36:41] [INFO] Time: matrix 1 spmv time cost: 0.0288s
+[2022- 7-31] [17:36:41] [INFO] Time: matrix 2 spmv time cost: 0.0468s
+[2022- 7-31] [17:36:41] [INFO] Time: matrix 3 spmv time cost: 0.0419s
+[2022- 7-31] [17:36:41] [INFO] Time: matrix 4 spmv time cost: 0.0787s
+[2022- 7-31] [17:36:41] [INFO] Time: matrix 5 spmv time cost: 0.1370s
+[2022- 7-31] [17:36:41] [INFO] Time: matrix 6 spmv time cost: 0.1340s
+[2022- 7-31] [17:36:41] [INFO] Time: matrix 7 spmv time cost: 0.2699s
+[2022- 7-31] [17:36:41] [INFO] Time: matrix 8 spmv time cost: 0.5145s
+[2022- 7-31] [17:36:41] [INFO] Time: total spmv time cost: 1.2689s
+[2022- 7-31] [17:36:41] [INFO] Time: total time cost: 120.9847s
+Job 3895576 has been finished.
